@@ -1,23 +1,24 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
-This project was bootstrapped with Fastify-CLI.
+# Projeto do Curso Clean Code Architecture
+> *Professor:* [Rodrigo Branas](https://app.branas.io)
 
-## Available Scripts
+### Techs
 
-In the project directory, you can run:
+Node | Fastfy | Jest | Supabase
+
+### O Projeto
+Sistema de vendas online com a possibilidade de realizar pedidos com múltiplos itens, cada um deles com uma quantidade variável, calculando o frete, os impostos, 
+aplicando um cupom de desconto e ainda interagindo com o estoque. Além disso teremos ainda fluxos de pagamento e cancelamento do pedido realizado.
 
 ### `npm run dev`
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para iniciar o projeto no modo `dev`.
+
+Acesse [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
 ### `npm start`
 
-For production mode
+Modo de produção.
 
 ### `npm run test`
 
-Run the test cases.
-
-## Learn More
-
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+Para rodar os testes.
