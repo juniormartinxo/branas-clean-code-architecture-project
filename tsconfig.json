@@ -13,11 +13,12 @@
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
-    "strict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "esModuleInterop": true
-  }
+    "resolveJsonModule": true
+  },
+  "include": ["src", "prisma/**/*.ts"],
+  "exclude": ["node_modules", "build", "dist"]
 }
